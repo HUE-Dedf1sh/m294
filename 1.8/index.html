@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let randnum = Math.floor(Math.random() * 10);
+        let input = null;
+
+        while (true){
+            input = prompt("Zahl:")
+            if(input == randnum){
+                alert("korrekt");
+                break;
+            }
+            if(randnum < input){
+                alert("Versuch zu hoch");
+            }else{
+                alert("Versuch zu niedrig");
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
