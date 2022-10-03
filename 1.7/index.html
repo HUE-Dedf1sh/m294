@@ -7,18 +7,18 @@
     <title>Document</title>
     <script>
         let name = prompt("Namen?")
-        const time = new Date().getHours;
+        const time = new Date().getHours();
 
-        if(time < 6){
-            alert("Gute Nacht " +name)
+        if(time < 5){
+            alert(`Guten Nacht ${name}`)
         } else if(time < 12){
-            alert("Gute Morgen " +name)
+            alert(`Guten Morgen ${name}`)
         } else if(time < 18){
-            alert("Gute Tag " +name)
+            alert(`Guten Tag ${name}`)
         } else if(time < 22){
-            alert("Gute Abend " +name)
+            alert(`Guten Abend ${name}`)
         } else{
-            alert("Gute Nacht " +name)
+            alert(`Guten Nacht ${name}`)
         }
     </script>
 </head>
