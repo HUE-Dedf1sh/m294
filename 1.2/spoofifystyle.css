@@ -4,9 +4,9 @@ h1{color: white;}
 
 h1, h2, p, ol{font-family: sans-serif;}
 
-.top-album-pic-grid img {
+img {
     height: 200px;
     width: 200px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
