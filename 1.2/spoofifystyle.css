@@ -5,8 +5,16 @@ h1{color: white;}
 h1, h2, p, ol{font-family: sans-serif;}
 
 img {
-    height: 200px;
-    width: 200px;
+    padding: 5px;
+    width: 150px;
+}
+
+.bilder {
+    width: 80%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
 }
